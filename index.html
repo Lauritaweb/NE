@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de fotos con grids</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- css de Fresco Lightbox -->
+    <link rel="stylesheet" href="./css/fresco.css">
+</head>
+<body>
+    <nav>
+        <a href="#">
+            <img src="./img/logo.png" alt="asdf sdfdf asdf ">
+        </a>
+        <ul>
+            <li>
+                <a href="#">Nosotros</a>
+            </li>
+            <li>
+                <a href="#">Servicios</a>
+            </li>
+            <li>
+                <a href="#">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- ends nav -->
+    <main class="galeria">
+        <a 
+            href="./img/foto-a.jpg" 
+            class="foto-a fresco"
+            data-fresco-caption="Acuarelas de primavera"
+            data-fresco-group="fotos"
+        >
+            <img src="./img/foto-a.jpg" alt="foto" >
+        </a>
+        <!-- end foto a -->
+        <a 
+            href="./img/foto-b.jpg" 
+            class="foto-b fresco" 
+            data-fresco-caption="Caption on top of the image"
+            data-fresco-group="fotos"
+        >
+            <img src="./img/foto-b.jpg" alt="foto" >
+        </a>
+        <!-- end foto b -->
+        <a 
+            href="./img/foto-c.jpg" 
+            class="foto-c fresco"
+            data-fresco-caption="Caption on top of the image"
+            data-fresco-group="fotos"
+        >
+            <img src="./img/foto-c.jpg" alt="foto" >
+        </a>
+        <!-- end foto c -->
+        <a 
+            href="./img/foto-d.jpg" 
+            class="foto-d fresco"
+            data-fresco-caption="Caption on top of the image"
+            data-fresco-group="fotos"
+        >
+            <img src="./img/foto-d.jpg" alt="fondo" >
+        </a>
+        <!-- end foto d -->
+        <a 
+            href="./img/foto-e.jpg" 
+            class="foto-e fresco"
+            data-fresco-caption="Caption on top of the image"
+            data-fresco-group="fondo"
+        >
+            <img src="./img/foto-e.jpg" alt="fondo" >
+        </a>
+        <!-- end foto e -->
+        <a 
+            href="./img/foto-f.jpg" 
+            class="foto-f fresco"
+            data-fresco-caption="Caption on top of the image"
+            data-fresco-group="fondo"
+        >
+            <img src="./img/foto-f.jpg" alt="fondo" >
+        </a>
+        <!-- end foto f -->
+    </main>
+    <!-- cargamos los scripts de Fresco -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./js/fresco.min.js"></script>
+</body>
+</html>
